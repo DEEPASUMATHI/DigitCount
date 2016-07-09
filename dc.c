@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    long long n;
+    long int  n;
     int count=0;
-    scanf("%lld", &n);
+    scanf("%ld", &n);
     while(n!=0)
     {
         n /= 10;             
